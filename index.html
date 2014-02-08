@@ -40,7 +40,8 @@
       #source{
         min-height: 500px;
       }
-
+      .tab-content{width:800px;overflow-x:scroll}
+      .tab-pane .component{width: 500px;display: inline-block;float: left;}
     </style>
     <link href="js/bootstrap-responsive.min.css" rel="stylesheet">
 
@@ -92,9 +93,9 @@
             </ul>
             <form class="form-horizontal" id="components">
               <fieldset>
-                <div class="tab-content">
+                <div class="tab-content" style="width: 600px;overflow-x:scroll">
 
-                  <div class="tab-pane active" id="1">
+                  <div class="tab-pane active" id="1" style="width:3500px;">
 
                     <div class="form-group component" data-type="text" rel="popover" title="Text Input" trigger="manual"
                       data-content="
@@ -106,7 +107,7 @@
                           <hr/>
                           <button class='btn btn-info'>Save</button><button class='btn btn-danger'>Cancel</button>
                         </div>
-                      </form>" data-html="true"
+                      </form>" data-html="true" 
                       >
 
                       <!-- Text input-->
@@ -128,7 +129,7 @@
                           <hr/>
                           <button class='btn btn-info'>Save</button><button class='btn btn-danger'>Cancel</button>
                         </div>
-                      </form>" data-html="true"
+                      </form>" data-html="true" 
                       >
 
                       <!-- Search input-->
@@ -152,7 +153,7 @@
                           <hr/>
                           <button class='btn btn-info'>Save</button><button class='btn btn-danger'>Cancel</button>
                         </div>
-                      </form>" data-html="true"
+                      </form>" data-html="true" 
                       >
 
                       <!-- Prepended text-->
@@ -178,7 +179,7 @@
                           <hr/>
                           <button class='btn btn-info'>Save</button><button class='btn btn-danger'>Cancel</button>
                         </div>
-                      </form>" data-html="true"
+                      </form>" data-html="true" 
                       >
 
                       <!-- Appended input-->
@@ -205,7 +206,7 @@
                           <hr/>
                           <button class='btn btn-info'>Save</button><button class='btn btn-danger'>Cancel</button>
                         </div>
-                      </form>" data-html="true"
+                      </form>" data-html="true" 
                       >
 
                       <!-- Prepended checkbox -->
@@ -233,7 +234,7 @@
                           <hr/>
                           <button class='btn btn-info'>Save</button><button class='btn btn-danger'>Cancel</button>
                         </div>
-                      </form>" data-html="true"
+                      </form>" data-html="true" 
                       >
 
                       <!-- Appended checkbox -->
@@ -257,7 +258,7 @@
                           <hr/>
                           <button class='btn btn-info'>Save</button><button class='btn btn-danger'>Cancel</button>
                         </div>
-                      </form>" data-html="true"
+                      </form>" data-html="true" 
                       >
 
                       <!-- Textarea -->
@@ -271,7 +272,7 @@
 
                   </div>
 
-                  <div class="tab-pane" id="2">
+                  <div class="tab-pane" id="2" style="width:1000px">
 
                     <div class="form-group component" rel="popover" title="Search Input" trigger="manual"
                       data-content="
@@ -326,7 +327,7 @@
 
                   </div>
 
-                  <div class="tab-pane" id="3">
+                  <div class="tab-pane" id="3" style="width:2000px">
 
                     <div class="form-group component" rel="popover" title="Multiple Checkboxes" trigger="manual"
                       data-content="
@@ -446,7 +447,7 @@
 
                   </div>
 
-                  <div class="tab-pane" id="4">
+                  <div class="tab-pane" id="4" style="width:1500px">
                     <div class="form-group component" rel="popover" title="File Upload" trigger="manual"
                       data-content="
                       <form class='form'>
@@ -509,7 +510,7 @@
                     >
                       <div class="col-xs-12 col-md-6 col-lg-6">
                           <a href="/p/headroom.js/" class="valtype" target="_blank" data-valtype="href">
-                            <img class="lazy valtype" src="//www.google.com.hk/images/srpr/logo11w.png" width="100%" data-valtype="src">
+                            <img class="lazy valtype" src="http://thefwoosh.com/wp-content/uploads/2011/01/DSC01839-180x240.jpg" width="100%" data-valtype="src">
                           </a>
                       </div>
                       <div class="col-xs-12 col-md-6 col-lg-6">
