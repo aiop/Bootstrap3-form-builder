@@ -472,7 +472,7 @@
                           <label class='control-label'>Label Text</label> <input class='form-control' type='text' name='label' id='label'>
                           <label class='control-label'>Button Text</label> <input class='form-control' type='text' name='label' id='button'>
                           <label class='control-label' id=''>Type: </label>
-                          <select class='form-control' class='input' id='color'>
+                          <select class='form-control input-md' id='color'>
                             <option id='btn-default'>Default</option>
                             <option id='btn-primary'>Primary</option>
                             <option id='btn-info'>Info</option>
@@ -493,6 +493,38 @@
                         <button class='btn btn-success'>Button</button>
                       </div>
                     </div>
+                    <section class="col-sm-12 col-md-12 component" rel="popover" title="Buju Fram" trigger="manual"
+                      data-content="
+                      <form class='form'>
+                        <div class='form-group col-md-12'>
+                          <label class='control-label'>Title Text</label> <input class='form-control' type='text' name='label' id='title'>
+                          <label class='control-label'>Link Text</label> <input class='form-control' type='text' name='href' id='href'>
+                          <label class='control-label'>Summy Text</label> <input class='form-control' type='text' name='label' id='summy'>
+                          <label class='control-label'>Upload Img</label> <input class='form-control' type='text' name='label' id='src'>
+                          <label class='control-label'>Content Text</label> <textarea class='form-control' style='min-height: 100px' id='content'></textarea>
+                          <hr/>
+                          <button class='btn btn-info'>Save</button><button class='btn btn-danger'>Cancel</button>
+                        </div>
+                      </form>" data-html="true"
+                    >
+                      <div class="col-xs-12 col-md-6 col-lg-6">
+                          <a href="/p/headroom.js/" class="valtype" target="_blank" data-valtype="href">
+                            <img class="lazy valtype" src="//www.google.com.hk/images/srpr/logo11w.png" width="100%" data-valtype="src">
+                          </a>
+                      </div>
+                      <div class="col-xs-12 col-md-6 col-lg-6">
+                        <h3> 
+                          <a href="/p/headroom.js/" target="_blank" class="valtype" data-valtype="href">
+                            <span class="valtype" data-valtype="title">标题标题标题标题标题</span>
+                          </a>
+                          <br>
+                          <small class="valtype" data-valtype="summy">元素元素元素元素元素</small>
+                        </h3>
+                        <p class="valtype" data-valtype="content">
+                          内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容 
+                        </p>      
+                      </div>
+                    </section>
                   </div>
                   <div class="tab-pane" id="5">
                     <textarea id="source" class="col-md-12"></textarea>
