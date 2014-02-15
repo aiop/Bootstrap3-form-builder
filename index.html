@@ -40,8 +40,7 @@
       #source{
         min-height: 500px;
       }
-      .tab-content{width:800px;overflow-x:scroll}
-      .tab-pane .component{width: 500px;display: inline-block;float: left;}
+
     </style>
     <link href="js/bootstrap-responsive.min.css" rel="stylesheet">
 
@@ -61,7 +60,7 @@
             <hr>
             <div id="build">
               <form id="target" class="form-horizontal">
-                <fieldset>
+                <fieldset class="col-md-6">
                   <div id="legend" class="component" rel="popover" title="Form Title" trigger="manual"
                     data-content="
                     <form class='form'>
@@ -74,6 +73,28 @@
                     >
                     <legend class="valtype" data-valtype="text">Form Name</legend>
                   </div>
+                </fieldset>
+                <fieldset class="col-md-6">
+                <div class="form-group component" data-type="text" rel="popover" title="Text Input" trigger="manual"
+                      data-content="
+                      <form class='form'>
+                        <div class='form-group col-md-12'>
+                          <label class='control-label'>Label Text</label> <input class='form-control' type='text' name='label' id='label'>
+                          <label class='control-label'>Placeholder</label> <input type='text' name='placeholder' id='placeholder' class='form-control'>
+                          <label class='control-label'>Help Text</label> <input type='text' name='help' id='help' class='form-control'>
+                          <hr/>
+                          <button class='btn btn-info'>Save</button><button class='btn btn-danger'>Cancel</button>
+                        </div>
+                      </form>" data-html="true" 
+                      >
+
+                      <!-- Text input-->
+                      <label class="col-md-4 control-label valtype" for="input01" data-valtype='label'>Text input</label>
+                      <div class="col-md-4">
+                        <input type="text" placeholder="placeholder" class="form-control input-md valtype" data-valtype="placeholder" >
+                        <p class="help-block valtype" data-valtype='help'>Supporting help text</p>
+                      </div>
+                    </div>
                 </fieldset>
               </form>
             </div>
@@ -93,9 +114,9 @@
             </ul>
             <form class="form-horizontal" id="components">
               <fieldset>
-                <div class="tab-content" style="width: 600px;overflow-x:scroll">
+                <div class="tab-content">
 
-                  <div class="tab-pane active" id="1" style="width:3500px;">
+                  <div class="tab-pane active" id="1">
 
                     <div class="form-group component" data-type="text" rel="popover" title="Text Input" trigger="manual"
                       data-content="
@@ -272,7 +293,7 @@
 
                   </div>
 
-                  <div class="tab-pane" id="2" style="width:1000px">
+                  <div class="tab-pane" id="2">
 
                     <div class="form-group component" rel="popover" title="Search Input" trigger="manual"
                       data-content="
@@ -327,7 +348,7 @@
 
                   </div>
 
-                  <div class="tab-pane" id="3" style="width:2000px">
+                  <div class="tab-pane" id="3">
 
                     <div class="form-group component" rel="popover" title="Multiple Checkboxes" trigger="manual"
                       data-content="
@@ -447,7 +468,7 @@
 
                   </div>
 
-                  <div class="tab-pane" id="4" style="width:1500px">
+                  <div class="tab-pane" id="4">
                     <div class="form-group component" rel="popover" title="File Upload" trigger="manual"
                       data-content="
                       <form class='form'>
