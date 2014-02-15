@@ -14,6 +14,3 @@ It's hosted on github pages [here](http://minikomi.github.io/Bootstrap-Form-Buil
 
 TO see it ex.[here](http://bootsnipp.com/j87klPolka/formbuilder3.html).
 
-### Adding new form elements
-
-* 
