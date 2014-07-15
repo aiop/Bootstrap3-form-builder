@@ -12,5 +12,5 @@ It's hosted on github pages [here](http://minikomi.github.io/Bootstrap-Form-Buil
 
 ### Just click index.html
 
-TO see it ex.[here](http://bootsnipp.com/j87klPolka/formbuilder3.html).
-
+TO see it ex.[here](http://www.xinzhanguo.cn/demo/formbulider/).
+[other demo](http://bootsnipp.com/j87klPolka/formbuilder3.html).
